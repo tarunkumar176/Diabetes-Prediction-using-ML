@@ -23,6 +23,9 @@ This project uses three machine learning models — Decision Tree, Random Forest
     Target: Diabetes (binary classification)
 
     Attributes: 21 health-related features (e.g., BMI, BP, Smoking)
+    Note:
+        -> This dataset is a balanced dataset which is collected from the kaggle (url: "https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset?select=diabetes_binary_5050split_health_indicators_BRFSS2015.csv")
+        -> This dataset doesnot have any null values or anamolies and also only selected features are include for model building.
 
 🧪 **Future Improvements**
     ->Hyperparameter tuning
@@ -32,3 +35,4 @@ This project uses three machine learning models — Decision Tree, Random Forest
     ->Use SHAP for interpretability
 
     ->Balance dataset using SMOTE
+
